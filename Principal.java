@@ -20,7 +20,7 @@ public class Principal {
 				System.out.print(AreaMemoria.getCaixa(i).contar() + "\t");
 			}
 			System.out.println();
-			new BufferedReader(new InputStreamReader(System.in)).readLine();
+			try {Thread.sleep(1000);} catch(Exception e) {}
 		}
 	}
 }
